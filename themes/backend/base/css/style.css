@@ -1,0 +1,33 @@
+body{
+    font-family: 'Nobile Regular', Arial, sans-serif, sans;
+}
+.badge {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+table#dynamic-table thead tr th:first-child {
+    width: 45px;
+}
+table#dynamic-table tbody tr td:first-child{
+    text-align: center;
+}
+.page-header h1 {
+    font-weight: 400;
+}
+#modal-form form .form-group label{
+    font-weight: bold;
+}
+.modal-body{
+    padding: 12px;
+}
+.head_table{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #EFF3F8;
+    margin: 0;
+}
+table.table{margin-bottom: 0;}
+div.jGrowl-message *{font-size: 16px !important;}
+.jGrowl.top-right{right:0;top:50px;}
+dir{padding: 0; margin: 0;}
+a[ng-click]{cursor: pointer;}

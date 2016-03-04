@@ -1,11 +1,10 @@
 <title><?php echo $this->_title; ?> - HỌC THÀNH TÀI</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<meta name="description" content="hocthanhtai.com.vn nơi chia sẻ kiến thức và thủ thuật sử dụng PHP, hướng dẫn học HTML CSS JAVASCRIP">
-<meta name="keywords" content="HTML,CSS,XML,JavaScript,Codeigniter">
-<meta name="author" content="giangvt.sami">
-<link href="<?php echo $this->_favicon; ?>" rel="shortcut icon">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="description" content="hocthanhtai.com.vn nơi chia sẻ kiến thức và thủ thuật sử dụng PHP, hướng dẫn học HTML CSS JAVASCRIP" />
+<meta name="keywords" content="HTML,CSS,XML,JavaScript,Codeigniter" />
+<meta name="author" content="giangvt.sami" />
+<link href="<?php echo $this->_favicon; ?>" rel="shortcut icon" />
 
 <!-- bootstrap & fontawesome -->
 <link rel="stylesheet" href="<?php echo $this->_themes_lib; ?>/css/bootstrap.css" />
@@ -17,7 +16,7 @@
 <link rel="stylesheet" href="<?php echo $this->_themes_lib; ?>/css/ace-fonts.css" />
 
 <!-- ace styles -->
-<link rel="stylesheet" href="<?php echo $this->_themes_lib; ?>/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+<link rel="stylesheet" href="<?php echo $this->_themes_lib; ?>/css/ace.css" />
 
 <!-- ace settings handler -->
 <script src="<?php echo $this->_themes_lib; ?>/js/ace-extra.js"></script>
@@ -82,7 +81,6 @@
 <link rel="stylesheet" href="<?php echo $this->_themes_custom; ?>/base/css/style.css" />
 <script src="<?php echo $this->_themes_custom; ?>/base/js/function.js"></script>
 <script src="<?php echo $this->_themes_custom; ?>/base/js/event.js"></script>
-
 
 <!--khai báo biến toàn cục trong các function js-->
 <script> var _page_not_found = '<?php echo site_url('admin/other/page_not_found'); ?>';</script>

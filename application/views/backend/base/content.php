@@ -4,7 +4,6 @@
             <?php echo isset($text_method) ? ucfirst($text_method) : ucfirst($text_class); ?>
         </h1>
     </div><!-- /.page-header -->
-
     <!-- PAGE CONTENT BEGINS -->
     <div class="table-header">
         Results for "<?php echo isset($text_method) ? ucfirst($text_method) : ucfirst($text_class); ?>"

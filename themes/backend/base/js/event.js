@@ -9,9 +9,8 @@ app.controller('ajax_list_data', ['$scope', '$http', function ($scope, $http) {
             $scope.currentPage = currentPage;
             ajax_list_data($scope, $http);
         };
-        $scope.checkAll = function () {
-            console.log($scope.test);
-            $scope.user = angular.copy($scope.test);
+        $scope.isChecked = function ($event) {
+            console.log($event.target.checked);
         };
     }]);
 app.directive('dir', function ($compile, $parse) {
